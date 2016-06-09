@@ -15,6 +15,7 @@ void TcpServer::sendFrame(QHostAddress recipient, int port, QStringList content)
     QTcpSocket socket;
     QString packet = "("+content.join(",")+")";
     socket.connectToHost(recipient, port);
+    socket.waitForConnected(50000);
     socket.write(packet.toStdString().c_str());
     if(!socket.waitForBytesWritten(3000))
     {

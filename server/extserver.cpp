@@ -447,6 +447,7 @@ void extServer::getAvailableResults(Request& r, int sender){
         }
         SServer srv = Configuration::getInstance().getDBServer(active.at(dbServer_nb));
         log("send " + result.join(",") + " to " + QString::number(srv.getNum()));
+        log(srv.getIp() + " " + QString::number(srv.getPortExt()));
         dbPortListener->sendFrame(QHostAddress(srv.getIp()), srv.getPortExt(), makeFrame(FrameType::GET_AVAILABLE_RESULTS, result));
         //clientPortListener->sendFrame(QHostAddress(srv.getIp()), srv.getPortExt(), makeFrame(FrameType::GET_AVAILABLE_RESULTS, result));
     } else{

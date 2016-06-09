@@ -38,6 +38,9 @@ dbServer::dbServer(int extPort, int dbPort, int clientPort){
     dbFunctionMap[FrameType::COORDINATOR] = &dbServer::coordinator;
     
     extFunctionMap[FrameType::GET_ACTIVE_SERVERS_DB] = &dbServer::getActiveServersDB;
+    extFunctionMap[FrameType::GET_AVAILABLE_RESULTS] = &dbServer::getAvailableResults;
+    extFunctionMap[FrameType::GET_RESULT] = &dbServer::getResult;
+    extFunctionMap[FrameType::GET_STATISTICS] = &dbServer::getStatistics;
 
     db_name = "rso";
     dbh = new DBHandler("192.168.0.16", db_name, "postgres", "haslord", 5432);
@@ -745,7 +748,7 @@ void dbServer::getStatistics(Request& r, int sender){
 
 void dbServer::sendErrorFrame(Request& r, int sender, int errorCode){
     log("send error " + QString::number(errorCode) + ' to ' + QString::number(sender));
-    extPortListener->sendFrame(r.socket, makeFrame(FrameType::ERROR, QStringList() << r.msg[2] << QString(errorCode) ));
+    extPortListener->sendFrame(QHostAddress(Configuration::getInstance().getExtServer(sender).getIp()), Configuration::getInstance().getExtServer(sender).getPortExt(), makeFrame(FrameType::ERROR, QStringList() << r.msg[2] << QString(errorCode) ));
 }
 
 void dbServer::sendErrorFrame(LamportRequest& r, int sender, int errorCode){
