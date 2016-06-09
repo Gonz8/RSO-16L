@@ -3,7 +3,7 @@ a="./rso-client list"
 printf $a >> res.csv
 
 fline=$(head -n 1 res.csv)
-IFS=', ' read -r -a columns <<< "$fline"
+IFS=',' read -r -a columns <<< "$fline"
 
 sed 1d res.csv | while read line
 do

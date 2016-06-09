@@ -13,7 +13,8 @@ exitCode Client::send(QStringList what)
     while(probowacDalej && serverId < servers_->size())
     {
         socket.abort();
-        socket.connectToHost(servers_->at(serverId).ip, servers_->at(serverId).port);
+        if(!socket.isOpen())
+            socket.connectToHost(servers_->at(serverId).ip, servers_->at(serverId).port);
         if(socket.waitForConnected(3000))
         {
             socket.write(QString("("+what.join(",")+")").toStdString().c_str());
