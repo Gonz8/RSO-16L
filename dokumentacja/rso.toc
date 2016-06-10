@@ -42,28 +42,26 @@
 \contentsline {subsection}{\numberline {3.6.7\relax .\kern .5em }Obs\IeC {\l }uga b\IeC {\l }\IeC {\k e}d\IeC {\'o}w}{23}{subsection.3.6.7}
 \contentsline {section}{\numberline {3.7\relax .\kern .5em }Klucze prywatne i publiczne}{23}{section.3.7}
 \contentsline {section}{\numberline {3.8\relax .\kern .5em }Skrypt uruchamiaj\IeC {\k a}cy aplikacj\IeC {\k e}}{24}{section.3.8}
-\contentsline {chapter}{\numberline {4\relax .\kern .5em }Prezentacja systemu}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1\relax .\kern .5em }Opis prezentacji systemu}{25}{section.4.1}
-\contentsline {chapter}{\numberline {5\relax .\kern .5em }Testy systemu}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1\relax .\kern .5em }Opis test\IeC {\'o}w systemu}{27}{section.5.1}
-\contentsline {chapter}{\numberline {6\relax .\kern .5em }Docker}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1\relax .\kern .5em }Opis rozwi\IeC {\k a}zania Docker}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2\relax .\kern .5em }Raport z przyk\IeC {\l }adowych uruchomie\IeC {\'n}}{35}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1\relax .\kern .5em }Uruchomienie aplikacji \textit {'Hello World'}}{35}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2\relax .\kern .5em }Uruchomienie aplikacji webowej}{36}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3\relax .\kern .5em }Tworzenie w\IeC {\l }asnego obrazu}{37}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4\relax .\kern .5em }Korzystanie z Docker Hub}{39}{subsection.6.2.4}
-\contentsline {chapter}{Dodatek \numberline {A\relax .\kern .5em }Wprowadzenie i instrukcja u\IeC {\.z}ytkowania systemu kontroli wersji Git}{40}{Dodatek.1.A}
-\contentsline {section}{\numberline {A.1\relax .\kern .5em }Wprowadzenie}{40}{section.1.A.1}
-\contentsline {section}{\numberline {A.2\relax .\kern .5em }Przygotowanie do pracy i pierwsze pobranie zawarto\IeC {\'s}ci repozytorium}{41}{section.1.A.2}
-\contentsline {section}{\numberline {A.3\relax .\kern .5em }U\IeC {\.z}ytkowanie}{41}{section.1.A.3}
-\contentsline {section}{\numberline {A.4\relax .\kern .5em }Dodatkowe narz\IeC {\k e}dzia}{42}{section.1.A.4}
-\contentsline {section}{\numberline {A.5\relax .\kern .5em }Przydatne informacje}{43}{section.1.A.5}
-\contentsline {chapter}{Dodatek \numberline {B\relax .\kern .5em }Spotkania zespo\IeC {\l }u}{44}{Dodatek.1.B}
-\contentsline {section}{\numberline {B.1\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 1}{44}{section.1.B.1}
-\contentsline {section}{\numberline {B.2\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 2}{44}{section.1.B.2}
-\contentsline {section}{\numberline {B.3\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 3}{44}{section.1.B.3}
-\contentsline {section}{\numberline {B.4\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 4}{45}{section.1.B.4}
-\contentsline {section}{\numberline {B.5\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 5}{45}{section.1.B.5}
-\contentsline {chapter}{Dodatek \numberline {C\relax .\kern .5em }Narz\IeC {\k e}dzia}{46}{Dodatek.1.C}
-\contentsline {chapter}{Dodatek \numberline {D\relax .\kern .5em }Role projektowe}{47}{Dodatek.1.D}
+\contentsline {chapter}{\numberline {4\relax .\kern .5em }Testy systemu}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Opis test\IeC {\'o}w systemu}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Docker}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Opis rozwi\IeC {\k a}zania Docker}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Raport z przyk\IeC {\l }adowych uruchomie\IeC {\'n}}{33}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1\relax .\kern .5em }Uruchomienie aplikacji \textit {'Hello World'}}{33}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2\relax .\kern .5em }Uruchomienie aplikacji webowej}{34}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3\relax .\kern .5em }Tworzenie w\IeC {\l }asnego obrazu}{35}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4\relax .\kern .5em }Korzystanie z Docker Hub}{37}{subsection.5.2.4}
+\contentsline {chapter}{Dodatek \numberline {A\relax .\kern .5em }Wprowadzenie i instrukcja u\IeC {\.z}ytkowania systemu kontroli wersji Git}{38}{Dodatek.1.A}
+\contentsline {section}{\numberline {A.1\relax .\kern .5em }Wprowadzenie}{38}{section.1.A.1}
+\contentsline {section}{\numberline {A.2\relax .\kern .5em }Przygotowanie do pracy i pierwsze pobranie zawarto\IeC {\'s}ci repozytorium}{39}{section.1.A.2}
+\contentsline {section}{\numberline {A.3\relax .\kern .5em }U\IeC {\.z}ytkowanie}{39}{section.1.A.3}
+\contentsline {section}{\numberline {A.4\relax .\kern .5em }Dodatkowe narz\IeC {\k e}dzia}{40}{section.1.A.4}
+\contentsline {section}{\numberline {A.5\relax .\kern .5em }Przydatne informacje}{41}{section.1.A.5}
+\contentsline {chapter}{Dodatek \numberline {B\relax .\kern .5em }Spotkania zespo\IeC {\l }u}{42}{Dodatek.1.B}
+\contentsline {section}{\numberline {B.1\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 1}{42}{section.1.B.1}
+\contentsline {section}{\numberline {B.2\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 2}{42}{section.1.B.2}
+\contentsline {section}{\numberline {B.3\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 3}{42}{section.1.B.3}
+\contentsline {section}{\numberline {B.4\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 4}{43}{section.1.B.4}
+\contentsline {section}{\numberline {B.5\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 5}{43}{section.1.B.5}
+\contentsline {chapter}{Dodatek \numberline {C\relax .\kern .5em }Narz\IeC {\k e}dzia}{44}{Dodatek.1.C}
+\contentsline {chapter}{Dodatek \numberline {D\relax .\kern .5em }Role projektowe}{45}{Dodatek.1.D}
