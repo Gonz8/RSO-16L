@@ -15,15 +15,15 @@
 \contentsline {subsection}{\numberline {3.2.6\relax .\kern .5em }Przetwarzanie \IeC {\.z}\IeC {\k a}da\IeC {\'n}}{9}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7\relax .\kern .5em }Szyfrowanie wiadomo\IeC {\'s}ci}{9}{subsection.3.2.7}
 \contentsline {subsection}{\numberline {3.2.8\relax .\kern .5em }Koordynator warstwy wewn\IeC {\k e}trznej}{9}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9\relax .\kern .5em }Algorytm elekcji}{9}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.9\relax .\kern .5em }Algorytm elekcji}{10}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10\relax .\kern .5em }Bezpo\IeC {\'s}rednie wstawianie danych}{10}{subsection.3.2.10}
 \contentsline {subsection}{\numberline {3.2.11\relax .\kern .5em }Dziennik operacji}{10}{subsection.3.2.11}
 \contentsline {section}{\numberline {3.3\relax .\kern .5em }Serwer warstwy zewn\IeC {\k e}trznej}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1\relax .\kern .5em }Komunikacja}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2\relax .\kern .5em }Szyfrowanie danych}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2\relax .\kern .5em }Szyfrowanie danych}{10}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3\relax .\kern .5em }Przetwarzanie \IeC {\.z}\IeC {\k a}da\IeC {\'n}}{11}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4\relax .\kern .5em }Koordynator}{11}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5\relax .\kern .5em }Algorytm elekcji}{11}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.5\relax .\kern .5em }Algorytm elekcji}{12}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6\relax .\kern .5em }Awaria w\IeC {\k e}z\IeC {\l }a}{12}{subsection.3.3.6}
 \contentsline {subsection}{\numberline {3.3.7\relax .\kern .5em }Przerwanie po\IeC {\l }\IeC {\k a}czenia mi\IeC {\k e}dzy w\IeC {\k e}z\IeC {\l }ami}{12}{subsection.3.3.7}
 \contentsline {subsection}{\numberline {3.3.8\relax .\kern .5em }Dziennik operacji}{12}{subsection.3.3.8}
@@ -35,7 +35,7 @@
 \contentsline {section}{\numberline {3.6\relax .\kern .5em }Protok\IeC {\'o}\IeC {\l } komunikacyjny}{15}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1\relax .\kern .5em }Format ramek}{15}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2\relax .\kern .5em }Komunikacja klient-serwer warstwy zewn\IeC {\k e}trznej}{15}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3\relax .\kern .5em }Komunikacja mi\IeC {\k e}dzy serwerami warstwy zewn\IeC {\k e}trznej}{17}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.3\relax .\kern .5em }Komunikacja mi\IeC {\k e}dzy serwerami warstwy zewn\IeC {\k e}trznej}{18}{subsection.3.6.3}
 \contentsline {subsection}{\numberline {3.6.4\relax .\kern .5em }Komunikacja mi\IeC {\k e}dzy serwerami danych}{19}{subsection.3.6.4}
 \contentsline {subsection}{\numberline {3.6.5\relax .\kern .5em }Komunikacja mi\IeC {\k e}dzy serwerami warstwy zewn\IeC {\k e}trznej a serwerami danych}{21}{subsection.3.6.5}
 \contentsline {subsection}{\numberline {3.6.6\relax .\kern .5em }Komunikacja mi\IeC {\k e}dzy serwerami danych a klientem edytuj\IeC {\k a}cym dane}{22}{subsection.3.6.6}
@@ -66,3 +66,4 @@
 \contentsline {section}{\numberline {B.4\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 4}{45}{section.1.B.4}
 \contentsline {section}{\numberline {B.5\relax .\kern .5em }Spotkanie zespo\IeC {\l }u nr 5}{45}{section.1.B.5}
 \contentsline {chapter}{Dodatek \numberline {C\relax .\kern .5em }Narz\IeC {\k e}dzia}{46}{Dodatek.1.C}
+\contentsline {chapter}{Dodatek \numberline {D\relax .\kern .5em }Role projektowe}{47}{Dodatek.1.D}

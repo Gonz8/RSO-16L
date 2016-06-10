@@ -42,12 +42,12 @@ Gdy jeden z serwerów danych połączy się ponownie po awarii, musi zaktualizow
     \label{fig:db_schema}
 \end{figure}
 
-Dane są przechowywane w bazie danych PostgreSQL, a wyniki badań medycznych w plikach, których ścieżki są zapisane w bazie danych. Schemat bazy danych przedstawiono na \ref{fig:db_schema}. Na potrzeby projektu przyjęto, że format przechowywanych wyników badań to .xml dla wyników w formie tekstowej lub .bmp dla wyników w formie zdjęć.
+Dane są przechowywane w bazie danych PostgreSQL, a wyniki badań medycznych w plikach, których ścieżki są zapisane w bazie danych. Schemat bazy danych przedstawiono na rysunku \ref{fig:db_schema}. Na potrzeby projektu przyjęto, że format przechowywanych wyników badań to .xml dla wyników w formie tekstowej lub .bmp dla wyników w formie zdjęć.
 
 
 \subsection{Przetwarzanie danych}
 
-Przetwarzanie danych obejmuje anonimizację wyników danych medycznych i tworzenie statystyk. Anonimizacja danych w formacie .xml polega na usunięciu nazwiska pacjenta z pliku. Danych w formacie .bmp nie trzeba anonimizować, ponieważ samo zdjęcie nie wskazuje na konkretnego pacjenta. Dostępne statystyki badań będą pokazywały liczbę wykonanych badań w zależności od czasu, kraju, płci, wieku itp.
+Przetwarzanie danych w systemie będzie się sprowadzać do tworzenia statystyk badań oraz pobierania skojarzonych z tymi badaniami plików w formacie .xml lub .bmp. Dostępne statystyki badań będą pokazywały liczbę wykonanych badań w zależności od czasu, kraju, płci, wieku itp.
 Przykładowy plik .xml z wynikiem badań:
 \begin{lstlisting}[style=incode]
 <examination>
@@ -61,6 +61,8 @@ Przykładowy plik .xml z wynikiem badań:
 </examination>
 \end{lstlisting}
 
+\subsubsection{Anonimizacja danych}
+Baza danych przechowuje dane osobowe pacjentów, czyli informacje pozwalające bezpośrednio zidentyfikować daną osobę (takie jak PESEL czy kombinacja pól nazwiska, daty urodzenia oraz miejsca urodzenia). Aby spełnić wymogi stawiane przez ustawę o ochronie danych osobowych z dnia 29 sierpnia 1997 roku oraz inne akty prawne obowiązujące w Rzeczpospolitej Polsce, przetworzone dane będą podlegały procesowi anonimizacji. Proces ten będzie polegał na usunięciu z danych kierowanych do klienta aplikacji informacji pozwalających na identyfikację pacjenta. W przypadku informacji bazodanowych nie będą przekazywane pola takie jak nazwisko, pesel, data urodzenia czy miejsce urodzenia. Anonimizacja danych w formacie .xml polegać będzie  na usunięciu nazwiska pacjenta z pliku. Danych w formacie .bmp nie trzeba anonimizować, ponieważ samo zdjęcie nie wskazuje na konkretnego pacjenta.
 
 \subsection{Komunikacja}
 Komunikacja z serwerami warstwy zewnętrznej i serwerami danych odbywa się przez protokół TCP/IP. W komunikacji pośredniczy moduł komunikacyjny, który oczekuje na zapytania. W serwerze danych znajdują się trzy moduły komunikacyjne (dla serwerów warstwy zewnętrznej, dla serwerów danych i pomocniczy do wstawiania danych). Każdy nasłuchuje na oddzielnym porcie. Numery portów znajdują się w pliku konfiguracyjnym. 
