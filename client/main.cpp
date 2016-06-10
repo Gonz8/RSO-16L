@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         std::cout << "nie można się z niczym połączyć lub nikt nie akceptuje zapytań\n";
         exit(10);
     }
-    client.socket.waitForReadyRead(5000);
+    client.socket.waitForReadyRead(15000);
 
     /*if(client.queue == 0)
         exit(0);*/
@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
             }
         }
     }
-    client.socket.waitForReadyRead(5000);
+    client.socket.waitForReadyRead(15000);
     exit(0);
 
     return a.exec();
